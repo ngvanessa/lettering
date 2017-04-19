@@ -1,0 +1,37 @@
+/* Styling */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+    
+    
+
+body {
+    background: beige;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: gray;
+}
+
+h1 span:nth-child(even) {
+  color: pink;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+ text-transform: uppercase;
+    letter-spacing: 2px;
+    color: gray;
+}
+
+h2 span:nth-child(even) {
+  letter-spacing: 2px;
+  color: pink;
+}
+
+span.word5 {
+    color: red;
+}
